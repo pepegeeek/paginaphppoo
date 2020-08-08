@@ -1,0 +1,71 @@
+*{
+    /*Comentarios en css*/
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    /* a razon de sitio rsponsivo cada */
+    font-size: 10px;
+    background:linear-gradient(30deg, crimson,sienna, royalblue, indianred, purple);
+    }
+
+
+html{font-size: 20px;
+}
+header{
+    height: 100px;
+    background-color:rgba(52, 152, 219 ,0.7);
+}
+#menuPrincipal {
+background-color:rgba(52, 152, 219 ,0.7);
+text-align: center;
+position: fixed; 
+width: 100%; 
+top: 0px; 
+z-index: 1;/*para que permita mantener visible el menú*/
+}
+.opcionMenuPrincipal{
+display: inline-block;
+ text-decoration: none; 
+ color: #FCFCFC; 
+ padding: 18px 50px;
+ position: relative; 
+ font-size: 1rem;
+}
+ .opcionMenuPrincipal:hover{
+ background-color:
+ }
+ .Calculadora{position: relative;
+ background-color: #AF10FF;}
+.Factorial{width: 100%; height: 700px; 
+overflow: hidden;}
+.Grados{position: relative;
+ background-color: #AF10FF;}
+ .Login{background: url(../IMAGENES/.jpg) no-repeat; 
+ }
+ section{
+    margin-top: 15px;
+    height: 500px;
+ }
+
+h2 p {
+	text-align: right center;
+}
+#texto{
+    width: 50%;
+    float: right;
+    margin-top: 150px;
+    text-align: center;
+    text-align: justify;
+}
+#text{
+    font-size: 2rem;
+}
+#parrafo1{
+    font-size: 1.5rem;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: blue;
+}
